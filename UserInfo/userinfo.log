@@ -1,0 +1,587 @@
+2020-07-02 16:16:04.309  INFO 9616 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 16:16:06.338  INFO 9616 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 16:16:06.340  INFO 9616 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 16:16:06.463  INFO 9616 --- [main] c.m.userinfo.UserInfoApplication         : No active profile set, falling back to default profiles: default
+2020-07-02 16:16:08.546  WARN 9616 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-07-02 16:16:08.984  INFO 9616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 16:16:09.297  INFO 9616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 243ms. Found 1 JPA repository interfaces.
+2020-07-02 16:16:09.483  WARN 9616 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-07-02 16:16:09.673  WARN 9616 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-02 16:16:09.943  INFO 9616 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=15736528-721f-3475-ac22-d5a09e5d0732
+2020-07-02 16:16:10.098  INFO 9616 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-02 16:16:10.114  INFO 9616 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-02 16:16:10.127  INFO 9616 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-02 16:16:10.317  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.319  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.333  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.340  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.348  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.353  INFO 9616 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 16:16:10.751  INFO 9616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-07-02 16:16:10.766  INFO 9616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 16:16:10.767  INFO 9616 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-02 16:16:10.928  INFO 9616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 16:16:10.928  INFO 9616 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4441 ms
+2020-07-02 16:16:11.068  WARN 9616 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 16:16:11.069  INFO 9616 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 16:16:11.120  INFO 9616 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@726a8729
+2020-07-02 16:16:11.784  INFO 9616 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 16:16:11.826  INFO 9616 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-02 16:16:12.064  INFO 9616 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 16:16:12.308  WARN 9616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-02 16:16:12.567  INFO 9616 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-02 16:16:14.058  INFO 9616 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-02 16:16:14.291  INFO 9616 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@186f7434, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e2975ca, org.springframework.security.web.header.HeaderWriterFilter@616f81b5, org.springframework.security.web.authentication.logout.LogoutFilter@7227926b, com.microservice.userinfo.security.AuthenticationFilter@2374452a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b4619a3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c47e077, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ffc6ea7, org.springframework.security.web.session.SessionManagementFilter@3c8fe8ad, org.springframework.security.web.access.ExceptionTranslationFilter@197d5a87, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7791ff50]
+2020-07-02 16:16:14.325  WARN 9616 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 16:16:14.325  INFO 9616 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 16:16:14.452  INFO 9616 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-02 16:16:15.140  INFO 9616 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-02 16:16:15.270  INFO 9616 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-02 16:16:18.687  INFO 9616 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 16:16:18.722  INFO 9616 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 16:16:21.591  INFO 9616 --- [main] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-07-02 16:16:23.043  WARN 9616 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-02 16:16:23.137  INFO 9616 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-07-02 16:16:23.263  INFO 9616 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-07-02 16:16:23.387  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-07-02 16:16:23.462  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-07-02 16:16:23.483  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-07-02 16:16:23.501  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-07-02 16:16:23.553  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ddf193a
+2020-07-02 16:16:23.681  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-07-02 16:16:23.688  INFO 9616 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 16:16:23.688  INFO 9616 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 16:16:23.698  INFO 9616 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-07-02 16:16:23.738  INFO 9616 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 16:16:23.738  INFO 9616 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-07-02 16:16:23.738  INFO 9616 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-07-02 16:16:23.740  INFO 9616 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-07-02 16:16:24.624  INFO 9616 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 16:16:26.164  INFO 9616 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 16:16:26.164  INFO 9616 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 16:16:26.251  INFO 9616 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 16:16:26.862  INFO 9616 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 16:16:26.867  INFO 9616 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-07-02 16:16:26.868  INFO 9616 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 16:16:27.035  INFO 9616 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 16:16:27.058  INFO 9616 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#2c64e2d0:0/SimpleConnection@614da024 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56049]
+2020-07-02 16:16:27.083  INFO 9616 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-07-02 16:16:27.089  INFO 9616 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 16:16:27.227  INFO 9616 --- [main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA, bound to: springCloudBus
+2020-07-02 16:16:27.255  INFO 9616 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA.errors' has 1 subscriber(s).
+2020-07-02 16:16:27.256  INFO 9616 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA.errors' has 2 subscriber(s).
+2020-07-02 16:16:27.267  INFO 9616 --- [main] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA'
+2020-07-02 16:16:27.288  INFO 9616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56051 (http) with context path ''
+2020-07-02 16:16:27.289  INFO 9616 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 56051
+2020-07-02 16:16:27.360  INFO 9616 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-07-02 16:16:27.494  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-07-02 16:16:27.583  INFO 9616 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-07-02 16:16:27.583  INFO 9616 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-07-02 16:16:27.712  INFO 9616 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-07-02 16:16:27.712  INFO 9616 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-07-02 16:16:27.925  INFO 9616 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-07-02 16:16:28.283  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 16:16:28.574  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 16:16:28.579  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-07-02 16:16:28.582  INFO 9616 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-02 16:16:28.587  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593731788586 with initial instances count: 1
+2020-07-02 16:16:28.590  INFO 9616 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERINFO with eureka with status UP
+2020-07-02 16:16:28.591  INFO 9616 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593731788591, current=UP, previous=STARTING]
+2020-07-02 16:16:28.593  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:db2f837d9e093809de3bc542583059b0: registering service...
+2020-07-02 16:16:28.635  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:db2f837d9e093809de3bc542583059b0 - registration status: 204
+2020-07-02 16:16:29.429  INFO 9616 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 16:16:29.430  INFO 9616 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 16:16:29.451  INFO 9616 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA.errors
+2020-07-02 16:16:29.567  INFO 9616 --- [main] c.m.userinfo.UserInfoApplication         : Started UserInfoApplication in 27.825 seconds (JVM running for 28.914)
+2020-07-02 16:21:28.287  INFO 9616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:26:28.289  INFO 9616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:31:28.296  INFO 9616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:36:28.298  INFO 9616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:41:28.302  INFO 9616 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:43:56.468  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.cloud.bus.event.RefreshListener      : Received remote refresh request.
+2020-07-02 16:43:59.772  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 16:44:01.398  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 16:44:01.399  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 16:44:01.408  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.boot.SpringApplication               : No active profile set, falling back to default profiles: default
+2020-07-02 16:44:01.416  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.boot.SpringApplication               : Started application in 4.946 seconds (JVM running for 1680.758)
+2020-07-02 16:44:01.874  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-07-02 16:44:04.879  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-07-02 16:44:04.891  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:db2f837d9e093809de3bc542583059b0 - deregister  status: 200
+2020-07-02 16:44:04.930  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-07-02 16:44:04.932  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-07-02 16:44:04.934  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-07-02 16:44:04.936  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-07-02 16:44:04.936  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-07-02 16:44:04.936  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-07-02 16:44:04.936  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-07-02 16:44:05.013  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-07-02 16:44:05.014  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 16:44:05.156  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 16:44:05.158  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-07-02 16:44:05.159  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-02 16:44:05.160  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593733445160 with initial instances count: 2
+2020-07-02 16:44:05.163  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERINFO with eureka with status DOWN
+2020-07-02 16:44:05.163  WARN 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593733445163, current=DOWN, previous=STARTING]
+2020-07-02 16:44:05.164  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a: registering service...
+2020-07-02 16:44:05.165  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERINFO with eureka with status UP
+2020-07-02 16:44:05.165  WARN 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593733445165, current=UP, previous=DOWN]
+2020-07-02 16:44:05.166  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.cloud.bus.event.RefreshListener      : Keys refreshed []
+2020-07-02 16:44:05.171  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a - registration status: 204
+2020-07-02 16:44:05.171  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a: registering service...
+2020-07-02 16:44:05.176  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a - registration status: 204
+2020-07-02 16:44:05.178  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 16:44:05.206  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory.publisher#310f1e16:0/SimpleConnection@721875d5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 63073]
+2020-07-02 16:44:05.209  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2020-07-02 16:46:12.023  WARN 9616 --- [AMQP Connection 127.0.0.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Connection reset)
+2020-07-02 16:46:12.025  WARN 9616 --- [AMQP Connection 127.0.0.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Connection reset)
+2020-07-02 16:46:12.026 ERROR 9616 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2020-07-02 16:46:12.027 ERROR 9616 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2020-07-02 16:46:12.028 ERROR 9616 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2020-07-02 16:46:12.732  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@62b71cfa: tags=[[amq.ctag-IBAlkRxzD1ywFMasJVQe1g]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@1e31e7e0 Shared Rabbit Connection: SimpleConnection@614da024 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56049], acknowledgeMode=AUTO local queue size=0
+2020-07-02 16:46:12.747  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 16:46:19.743  WARN 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-2] o.s.a.r.l.SimpleMessageListenerContainer : Consumer raised exception, processing can restart if the connection factory supports it. Exception summary: org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+2020-07-02 16:46:19.743  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-2] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@8eaaf5d: tags=[[]], channel=null, acknowledgeMode=AUTO local queue size=0
+2020-07-02 16:46:19.744  INFO 9616 --- [springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA-3] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 16:46:26.017  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-02 16:46:26.019  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERINFO with eureka with status DOWN
+2020-07-02 16:46:26.019  WARN 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593733586019, current=DOWN, previous=UP]
+2020-07-02 16:46:26.019  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a: registering service...
+2020-07-02 16:46:26.029  INFO 9616 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a - registration status: 204
+2020-07-02 16:46:26.375  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-02 16:46:26.377  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-07-02 16:46:26.384  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-07-02 16:46:26.384  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-07-02 16:46:26.384  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA'
+2020-07-02 16:46:26.386  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA.errors' has 1 subscriber(s).
+2020-07-02 16:46:26.387  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.JJi9usLMRm6kRXK_sZ18IA.errors' has 0 subscriber(s).
+2020-07-02 16:46:26.391  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 16:46:26.391  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-07-02 16:46:26.391  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-07-02 16:46:26.405  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 16:46:26.407  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-02 16:46:26.407  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 16:46:26.408  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-02 16:46:36.000  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-02 16:46:36.003  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-07-02 16:46:36.003  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-07-02 16:46:36.004  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-07-02 16:46:36.004  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-07-02 16:46:36.004  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ddf193a
+2020-07-02 16:46:36.004  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-07-02 16:46:36.006  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-07-02 16:46:39.010  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-07-02 16:46:39.018  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:4e8c5afeb3319b3e158287a5d483771a - deregister  status: 200
+2020-07-02 16:46:39.041  INFO 9616 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-07-02 19:41:11.489  INFO 1364 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 19:41:13.501  INFO 1364 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 19:41:13.502  INFO 1364 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 19:41:13.616  INFO 1364 --- [main] c.m.userinfo.UserInfoApplication         : No active profile set, falling back to default profiles: default
+2020-07-02 19:41:14.651  WARN 1364 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:41:14.864  INFO 1364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 19:41:14.965  INFO 1364 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 1 JPA repository interfaces.
+2020-07-02 19:41:15.034  WARN 1364 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:41:15.107  WARN 1364 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:41:15.305  INFO 1364 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=15736528-721f-3475-ac22-d5a09e5d0732
+2020-07-02 19:41:15.385  INFO 1364 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-02 19:41:15.389  INFO 1364 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-02 19:41:15.393  INFO 1364 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-02 19:41:15.508  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.510  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.541  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.546  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.554  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.558  INFO 1364 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:41:15.905  INFO 1364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-07-02 19:41:15.914  INFO 1364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 19:41:15.914  INFO 1364 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-02 19:41:16.102  INFO 1364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 19:41:16.103  INFO 1364 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2467 ms
+2020-07-02 19:41:16.210  WARN 1364 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 19:41:16.211  INFO 1364 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 19:41:16.224  INFO 1364 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@379f9555
+2020-07-02 19:41:16.524  INFO 1364 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:41:16.566  INFO 1364 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-02 19:41:16.599  INFO 1364 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 19:41:16.649  INFO 1364 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-02 19:41:16.697  WARN 1364 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-02 19:41:16.752  INFO 1364 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-02 19:41:16.894  INFO 1364 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45b8bbbf, org.springframework.security.web.context.SecurityContextPersistenceFilter@1926f962, org.springframework.security.web.header.HeaderWriterFilter@2110684a, org.springframework.security.web.authentication.logout.LogoutFilter@1ae9d0e4, com.microservice.userinfo.security.AuthenticationFilter@1df06ecd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c82ad22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79617c3d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57927bc9, org.springframework.security.web.session.SessionManagementFilter@61d011e, org.springframework.security.web.access.ExceptionTranslationFilter@46591e98, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@340fc1aa]
+2020-07-02 19:41:16.897  INFO 1364 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-02 19:41:16.936  WARN 1364 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 19:41:16.936  INFO 1364 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 19:41:17.148  INFO 1364 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-02 19:41:17.158  INFO 1364 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-02 19:41:17.697  INFO 1364 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 19:41:17.704  INFO 1364 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 19:41:19.562  INFO 1364 --- [main] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-07-02 19:41:20.686  WARN 1364 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-02 19:41:20.751  INFO 1364 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-07-02 19:41:20.856  INFO 1364 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-07-02 19:41:20.975  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-07-02 19:41:21.003  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-07-02 19:41:21.084  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-07-02 19:41:21.126  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-07-02 19:41:21.142  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-07-02 19:41:21.166  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@3444ac8f
+2020-07-02 19:41:21.263  INFO 1364 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 19:41:21.263  INFO 1364 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-07-02 19:41:21.263  INFO 1364 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-07-02 19:41:21.264  INFO 1364 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-07-02 19:41:22.083  INFO 1364 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 19:41:22.490  INFO 1364 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 19:41:22.491  INFO 1364 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 19:41:22.498  INFO 1364 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-07-02 19:41:23.593  INFO 1364 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 19:41:23.594  INFO 1364 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 19:41:23.680  INFO 1364 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 19:41:23.826  INFO 1364 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 19:41:23.831  INFO 1364 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-07-02 19:41:23.832  INFO 1364 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 19:41:23.977  INFO 1364 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 19:41:24.054  INFO 1364 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6baa673d:0/SimpleConnection@46a6f51b [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57843]
+2020-07-02 19:41:24.119  INFO 1364 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-07-02 19:41:24.125  INFO 1364 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 19:41:24.251  INFO 1364 --- [main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA, bound to: springCloudBus
+2020-07-02 19:41:24.265  INFO 1364 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA.errors' has 1 subscriber(s).
+2020-07-02 19:41:24.265  INFO 1364 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA.errors' has 2 subscriber(s).
+2020-07-02 19:41:24.286  INFO 1364 --- [main] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA'
+2020-07-02 19:41:24.306  INFO 1364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57847 (http) with context path ''
+2020-07-02 19:41:24.307  INFO 1364 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 57847
+2020-07-02 19:41:24.312  INFO 1364 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-07-02 19:41:24.343  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-07-02 19:41:24.407  INFO 1364 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-07-02 19:41:24.407  INFO 1364 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-07-02 19:41:24.545  INFO 1364 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-07-02 19:41:24.546  INFO 1364 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-07-02 19:41:24.790  INFO 1364 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 19:41:25.160  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 19:41:25.160  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 19:41:25.161  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 19:41:25.161  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 19:41:25.161  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 19:41:25.161  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-07-02 19:41:25.161  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 19:41:25.479  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 19:41:25.482  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-07-02 19:41:25.485  INFO 1364 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-02 19:41:25.488  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593744085487 with initial instances count: 1
+2020-07-02 19:41:25.493  INFO 1364 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERINFO with eureka with status UP
+2020-07-02 19:41:25.494  INFO 1364 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593744085494, current=UP, previous=STARTING]
+2020-07-02 19:41:25.496  INFO 1364 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:7fc823a1e4fba95a6b1ee634fb799594: registering service...
+2020-07-02 19:41:25.526  INFO 1364 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:7fc823a1e4fba95a6b1ee634fb799594 - registration status: 204
+2020-07-02 19:41:26.319  INFO 1364 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 19:41:26.320  INFO 1364 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 19:41:26.342  INFO 1364 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA.errors
+2020-07-02 19:41:26.459  INFO 1364 --- [main] c.m.userinfo.UserInfoApplication         : Started UserInfoApplication in 17.289 seconds (JVM running for 18.373)
+2020-07-02 19:42:08.319  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-02 19:42:08.320  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERINFO with eureka with status DOWN
+2020-07-02 19:42:08.320  WARN 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593744128320, current=DOWN, previous=UP]
+2020-07-02 19:42:08.320  INFO 1364 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:7fc823a1e4fba95a6b1ee634fb799594: registering service...
+2020-07-02 19:42:08.327  INFO 1364 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:7fc823a1e4fba95a6b1ee634fb799594 - registration status: 204
+2020-07-02 19:42:08.640  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-02 19:42:08.642  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-07-02 19:42:08.656  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-07-02 19:42:09.373  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-07-02 19:42:09.374  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA'
+2020-07-02 19:42:09.382  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA.errors' has 1 subscriber(s).
+2020-07-02 19:42:09.385  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.J8y7_XynQMC-QsLHZWqhZA.errors' has 0 subscriber(s).
+2020-07-02 19:42:09.397  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 19:42:09.398  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-07-02 19:42:09.398  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-07-02 19:42:09.412  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 19:42:09.415  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-02 19:42:09.415  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:42:09.415  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-02 19:42:09.426  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-02 19:42:09.427  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-07-02 19:42:09.427  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-07-02 19:42:09.428  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-07-02 19:42:09.428  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-07-02 19:42:09.428  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-07-02 19:42:09.428  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@3444ac8f
+2020-07-02 19:42:09.428  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-07-02 19:42:12.431  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-07-02 19:42:12.440  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:7fc823a1e4fba95a6b1ee634fb799594 - deregister  status: 200
+2020-07-02 19:42:12.453  INFO 1364 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-07-02 19:45:24.719  INFO 7240 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 19:45:26.563  INFO 7240 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 19:45:26.564  INFO 7240 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 19:45:26.595  INFO 7240 --- [main] c.m.userinfo.UserInfoApplication         : No active profile set, falling back to default profiles: default
+2020-07-02 19:45:27.609  WARN 7240 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:45:27.812  INFO 7240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 19:45:27.876  INFO 7240 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2020-07-02 19:45:27.932  WARN 7240 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:45:28.003  WARN 7240 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-02 19:45:28.201  INFO 7240 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=15736528-721f-3475-ac22-d5a09e5d0732
+2020-07-02 19:45:28.289  INFO 7240 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-02 19:45:28.299  INFO 7240 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-02 19:45:28.303  INFO 7240 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-02 19:45:28.413  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.416  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.433  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.438  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.447  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.451  INFO 7240 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 19:45:28.832  INFO 7240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-07-02 19:45:28.840  INFO 7240 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 19:45:28.840  INFO 7240 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-02 19:45:28.980  INFO 7240 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 19:45:28.980  INFO 7240 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2371 ms
+2020-07-02 19:45:29.093  WARN 7240 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 19:45:29.093  INFO 7240 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 19:45:29.105  INFO 7240 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@76af34b5
+2020-07-02 19:45:29.397  INFO 7240 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:45:29.438  INFO 7240 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-02 19:45:29.476  INFO 7240 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 19:45:29.539  INFO 7240 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-02 19:45:29.638  INFO 7240 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-02 19:45:29.639  WARN 7240 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-02 19:45:29.746  INFO 7240 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-02 19:45:29.864  INFO 7240 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a06602f, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c31de5d, org.springframework.security.web.header.HeaderWriterFilter@4e756867, org.springframework.security.web.authentication.logout.LogoutFilter@6c1f15df, com.microservice.userinfo.security.AuthenticationFilter@46591e98, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@772cf46b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d2cb2d0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b6cc344, org.springframework.security.web.session.SessionManagementFilter@6adcf059, org.springframework.security.web.access.ExceptionTranslationFilter@62360a68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43b4ec0c]
+2020-07-02 19:45:29.899  WARN 7240 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 19:45:29.899  INFO 7240 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 19:45:29.907  INFO 7240 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-02 19:45:29.928  INFO 7240 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-02 19:45:30.588  INFO 7240 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 19:45:30.594  INFO 7240 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 19:45:32.400  INFO 7240 --- [main] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-07-02 19:45:33.524  INFO 7240 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 19:45:33.525  INFO 7240 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 19:45:33.552  INFO 7240 --- [RMI TCP Connection(1)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-07-02 19:45:33.563  WARN 7240 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-02 19:45:33.582  INFO 7240 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 57 ms
+2020-07-02 19:45:33.751  INFO 7240 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-07-02 19:45:33.902  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-07-02 19:45:33.982  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-07-02 19:45:34.006  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-07-02 19:45:34.049  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-07-02 19:45:34.067  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ce09850
+2020-07-02 19:45:34.153  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-07-02 19:45:34.195  INFO 7240 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 19:45:34.196  INFO 7240 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-07-02 19:45:34.196  INFO 7240 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-07-02 19:45:34.197  INFO 7240 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-07-02 19:45:35.012  INFO 7240 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 19:45:36.729  INFO 7240 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 19:45:36.729  INFO 7240 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 19:45:36.813  INFO 7240 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 19:45:36.941  INFO 7240 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 19:45:36.945  INFO 7240 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-07-02 19:45:36.946  INFO 7240 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 19:45:37.078  INFO 7240 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 19:45:37.104  INFO 7240 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#518d4537:0/SimpleConnection@fcecc45 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59727]
+2020-07-02 19:45:37.133  INFO 7240 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-07-02 19:45:37.139  INFO 7240 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 19:45:37.222  INFO 7240 --- [main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA, bound to: springCloudBus
+2020-07-02 19:45:37.253  INFO 7240 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA.errors' has 1 subscriber(s).
+2020-07-02 19:45:37.253  INFO 7240 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA.errors' has 2 subscriber(s).
+2020-07-02 19:45:37.265  INFO 7240 --- [main] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA'
+2020-07-02 19:45:37.285  INFO 7240 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59730 (http) with context path ''
+2020-07-02 19:45:37.287  INFO 7240 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 59730
+2020-07-02 19:45:37.293  INFO 7240 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-07-02 19:45:37.347  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-07-02 19:45:37.404  INFO 7240 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-07-02 19:45:37.404  INFO 7240 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-07-02 19:45:37.525  INFO 7240 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-07-02 19:45:37.525  INFO 7240 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-07-02 19:45:37.705  INFO 7240 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 19:45:38.028  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 19:45:38.029  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 19:45:38.029  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 19:45:38.029  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 19:45:38.030  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 19:45:38.030  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-07-02 19:45:38.030  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 19:45:38.886  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 19:45:38.931  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-07-02 19:45:38.938  INFO 7240 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-02 19:45:38.950  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593744338948 with initial instances count: 0
+2020-07-02 19:45:38.958  INFO 7240 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERINFO with eureka with status UP
+2020-07-02 19:45:38.959  INFO 7240 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593744338959, current=UP, previous=STARTING]
+2020-07-02 19:45:39.016  INFO 7240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:d9cae0dbc1d746dd9becaf03d1e3d779: registering service...
+2020-07-02 19:45:39.146  INFO 7240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:d9cae0dbc1d746dd9becaf03d1e3d779 - registration status: 204
+2020-07-02 19:45:40.057  INFO 7240 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 19:45:40.058  INFO 7240 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 19:45:40.084  INFO 7240 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA.errors
+2020-07-02 19:45:40.197  INFO 7240 --- [main] c.m.userinfo.UserInfoApplication         : Started UserInfoApplication in 17.833 seconds (JVM running for 18.853)
+2020-07-02 19:46:08.908  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 19:46:08.909  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 19:46:08.912  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 19:46:08.916  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 19:46:08.917  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 19:46:08.917  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2020-07-02 19:46:08.917  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 19:46:08.937  INFO 7240 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 19:46:13.122  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-02 19:46:13.123  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERINFO with eureka with status DOWN
+2020-07-02 19:46:13.124  WARN 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593744373124, current=DOWN, previous=UP]
+2020-07-02 19:46:13.124  INFO 7240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:d9cae0dbc1d746dd9becaf03d1e3d779: registering service...
+2020-07-02 19:46:13.134  INFO 7240 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:d9cae0dbc1d746dd9becaf03d1e3d779 - registration status: 204
+2020-07-02 19:46:13.443  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-02 19:46:13.445  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-07-02 19:46:13.463  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-07-02 19:46:14.320  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-07-02 19:46:14.320  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA'
+2020-07-02 19:46:14.323  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA.errors' has 1 subscriber(s).
+2020-07-02 19:46:14.324  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.P14ov9yPSoGe9ke_sALDdA.errors' has 0 subscriber(s).
+2020-07-02 19:46:14.327  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 19:46:14.328  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-07-02 19:46:14.328  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-07-02 19:46:14.341  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 19:46:14.343  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-02 19:46:14.343  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 19:46:14.344  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-02 19:46:14.371  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ce09850
+2020-07-02 19:46:14.373  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-07-02 19:46:14.376  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-07-02 19:46:17.381  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-07-02 19:46:17.401  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:d9cae0dbc1d746dd9becaf03d1e3d779 - deregister  status: 200
+2020-07-02 19:46:17.416  INFO 7240 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2020-07-02 20:27:39.597  INFO 10464 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 20:27:41.542  INFO 10464 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 20:27:41.544  INFO 10464 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 20:27:41.579  INFO 10464 --- [main] c.m.userinfo.UserInfoApplication         : No active profile set, falling back to default profiles: default
+2020-07-02 20:27:42.567  WARN 10464 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-07-02 20:27:42.772  INFO 10464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-02 20:27:42.845  INFO 10464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67ms. Found 1 JPA repository interfaces.
+2020-07-02 20:27:42.906  WARN 10464 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-07-02 20:27:42.982  WARN 10464 --- [main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-07-02 20:27:43.182  INFO 10464 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=15736528-721f-3475-ac22-d5a09e5d0732
+2020-07-02 20:27:43.255  INFO 10464 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-07-02 20:27:43.260  INFO 10464 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-07-02 20:27:43.263  INFO 10464 --- [main] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-07-02 20:27:43.385  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.388  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.413  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.418  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.426  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.430  INFO 10464 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-02 20:27:43.820  INFO 10464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-07-02 20:27:43.827  INFO 10464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-02 20:27:43.828  INFO 10464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-07-02 20:27:43.981  INFO 10464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-02 20:27:43.981  INFO 10464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2387 ms
+2020-07-02 20:27:44.086  WARN 10464 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 20:27:44.086  INFO 10464 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 20:27:44.095  INFO 10464 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@731db93f
+2020-07-02 20:27:44.356  INFO 10464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-02 20:27:44.397  INFO 10464 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-07-02 20:27:44.429  INFO 10464 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-02 20:27:44.498  INFO 10464 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-07-02 20:27:44.559  WARN 10464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-02 20:27:44.632  INFO 10464 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-02 20:27:44.718  INFO 10464 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-02 20:27:44.798  INFO 10464 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@144440f5, org.springframework.security.web.context.SecurityContextPersistenceFilter@17ae13d5, org.springframework.security.web.header.HeaderWriterFilter@78bd02c8, org.springframework.security.web.authentication.logout.LogoutFilter@5fe3b058, com.microservice.userinfo.security.AuthenticationFilter@3e2c8ef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1eb9d69a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a6efe33, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@290807e5, org.springframework.security.web.session.SessionManagementFilter@47e60b71, org.springframework.security.web.access.ExceptionTranslationFilter@65015a49, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c53bd49]
+2020-07-02 20:27:44.828  WARN 10464 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-07-02 20:27:44.828  INFO 10464 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-07-02 20:27:44.883  INFO 10464 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-02 20:27:44.896  INFO 10464 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-07-02 20:27:45.390  INFO 10464 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-02 20:27:45.396  INFO 10464 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 20:27:47.247  INFO 10464 --- [main] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-07-02 20:27:48.408  WARN 10464 --- [main] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-07-02 20:27:48.484  INFO 10464 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-07-02 20:27:48.502  INFO 10464 --- [RMI TCP Connection(1)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-02 20:27:48.502  INFO 10464 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-02 20:27:48.588  INFO 10464 --- [RMI TCP Connection(1)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 86 ms
+2020-07-02 20:27:48.617  INFO 10464 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-07-02 20:27:48.774  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-07-02 20:27:48.873  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-07-02 20:27:48.887  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-07-02 20:27:48.906  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-07-02 20:27:48.954  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-07-02 20:27:48.980  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@18a693de
+2020-07-02 20:27:49.089  INFO 10464 --- [main] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 20:27:49.090  INFO 10464 --- [main] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-07-02 20:27:49.090  INFO 10464 --- [main] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-07-02 20:27:49.091  INFO 10464 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-07-02 20:27:49.915  INFO 10464 --- [main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-07-02 20:27:51.467  INFO 10464 --- [main] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=ConfigServer, profiles=[default], label=null, version=9cfa00ff0f2b4e09ae3f52527d4f4df539c1b2e9, state=null
+2020-07-02 20:27:51.468  INFO 10464 --- [main] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-configClient'}, BootstrapPropertySource {name='bootstrapProperties-https://github.com/adelkadiki/ConfigServer/application.properties'}]
+2020-07-02 20:27:51.558  INFO 10464 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 20:27:51.684  INFO 10464 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 20:27:51.691  INFO 10464 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-07-02 20:27:51.691  INFO 10464 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 20:27:51.812  INFO 10464 --- [main] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-07-02 20:27:51.836  INFO 10464 --- [main] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#3622c9f0:0/SimpleConnection@72a522f1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 59579]
+2020-07-02 20:27:51.866  INFO 10464 --- [main] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-07-02 20:27:51.872  INFO 10464 --- [main] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-07-02 20:27:51.985  INFO 10464 --- [main] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA, bound to: springCloudBus
+2020-07-02 20:27:52.003  INFO 10464 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA.errors' has 1 subscriber(s).
+2020-07-02 20:27:52.004  INFO 10464 --- [main] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA.errors' has 2 subscriber(s).
+2020-07-02 20:27:52.015  INFO 10464 --- [main] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA'
+2020-07-02 20:27:52.034  INFO 10464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 59582 (http) with context path ''
+2020-07-02 20:27:52.035  INFO 10464 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 59582
+2020-07-02 20:27:52.039  INFO 10464 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-07-02 20:27:52.069  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-07-02 20:27:52.135  INFO 10464 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-07-02 20:27:52.136  INFO 10464 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-07-02 20:27:52.261  INFO 10464 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-07-02 20:27:52.261  INFO 10464 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-07-02 20:27:52.425  INFO 10464 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-07-02 20:27:52.754  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-07-02 20:27:52.755  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-07-02 20:27:52.974  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-07-02 20:27:52.977  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-07-02 20:27:52.994  INFO 10464 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-07-02 20:27:52.998  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1593746872997 with initial instances count: 2
+2020-07-02 20:27:53.001  INFO 10464 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USERINFO with eureka with status UP
+2020-07-02 20:27:53.002  INFO 10464 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593746873002, current=UP, previous=STARTING]
+2020-07-02 20:27:53.003  INFO 10464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:bb7ea700aa778876bbb0507724ed9e7e: registering service...
+2020-07-02 20:27:53.028  INFO 10464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:bb7ea700aa778876bbb0507724ed9e7e - registration status: 204
+2020-07-02 20:27:53.804  INFO 10464 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-02 20:27:53.805  INFO 10464 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-02 20:27:53.827  INFO 10464 --- [main] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA.errors
+2020-07-02 20:27:53.934  INFO 10464 --- [main] c.m.userinfo.UserInfoApplication         : Started UserInfoApplication in 16.676 seconds (JVM running for 17.756)
+2020-07-02 20:29:24.062  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-07-02 20:29:24.063  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application USERINFO with eureka with status DOWN
+2020-07-02 20:29:24.064  WARN 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1593746964064, current=DOWN, previous=UP]
+2020-07-02 20:29:24.065  INFO 10464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:bb7ea700aa778876bbb0507724ed9e7e: registering service...
+2020-07-02 20:29:24.071  INFO 10464 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:bb7ea700aa778876bbb0507724ed9e7e - registration status: 204
+2020-07-02 20:29:24.387  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-07-02 20:29:24.389  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2020-07-02 20:29:24.409  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2020-07-02 20:29:25.114  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2020-07-02 20:29:25.115  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA'
+2020-07-02 20:29:25.125  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA.errors' has 1 subscriber(s).
+2020-07-02 20:29:25.131  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.R_Nw3PAlRpaxQ9FOaP_2DA.errors' has 0 subscriber(s).
+2020-07-02 20:29:25.144  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-07-02 20:29:25.145  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2020-07-02 20:29:25.146  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2020-07-02 20:29:25.162  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-07-02 20:29:25.164  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-07-02 20:29:25.164  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-02 20:29:25.164  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-07-02 20:29:25.172  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-07-02 20:29:25.174  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2020-07-02 20:29:25.174  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2020-07-02 20:29:25.174  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2020-07-02 20:29:25.174  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2020-07-02 20:29:25.175  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2020-07-02 20:29:25.175  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@18a693de
+2020-07-02 20:29:25.176  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2020-07-02 20:29:28.178  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2020-07-02 20:29:28.185  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USERINFO/userinfo:bb7ea700aa778876bbb0507724ed9e7e - deregister  status: 200
+2020-07-02 20:29:28.197  INFO 10464 --- [RMI TCP Connection(3)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
