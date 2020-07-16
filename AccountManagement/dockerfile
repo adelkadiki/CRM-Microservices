@@ -1,0 +1,4 @@
+FROM openjdk:8-jdk-alpine 
+VOLUME /tmp 
+COPY target/AccountManagement-0.0.1-SNAPSHOT.jar Management.jar 
+ENTRYPOINT ["java","-jar","Management.jar"]
